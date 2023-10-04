@@ -42,11 +42,23 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     if (name !== '' && isValidEmail(email) && isValidMobile(mobile)) {
-      // Store the user's data (including password) in local storage
-      const userData = { name, email, mobile, password };
-      localStorage.setItem(email, JSON.stringify(userData));
-      alert(`Registration successful!, ${name}!`);
-      regForm.reset();
+      // Send the registration data to the server via AJAX
+      const xhr = new XMLHttpRequest();
+      xhr.open('POST', 'process.php', true);
+      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          const response = JSON.parse(xhr.responseText);
+          if (response.success) {
+            alert(response.message); // Display the success message from PHP
+            regForm.reset();
+          } else {
+            alert('Registration failed. Please try again later.');
+          }
+        }
+      };
+      const data = `regName=${name}&regEmail=${email}&regMobile=${mobile}&regPassword=${password}`;
+      xhr.send(data);
     }
   });
 });
