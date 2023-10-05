@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="review.xsl"?>
+<reviews>
+    <review>
+        <book>The Great Gatsby</book>
+        <author>F. Scott Fitzgerald</author>
+        <rating>4.5</rating>
+        <comment>
+            A classic tale of wealth, love, and tragedy set in the roaring 1920s. Fitzgerald's writing is mesmerizing.
+        </comment>
+    </review>
+    <review>
+        <book>To Kill a Mockingbird</book>
+        <author>Harper Lee</author>
+        <rating>4.8</rating>
+        <comment>
+            This book beautifully explores themes of racial injustice, empathy, and moral growth in the American South.
+        </comment>
+    </review>
+    <review>
+        <book>The Hobbit</book>
+        <author>J.R.R. Tolkien</author>
+        <rating>4.6</rating>
+        <comment>
+            An adventurous journey through Middle-earth with Bilbo Baggins. Tolkien's world-building is exceptional.
+        </comment>
+    </review>
+    <review>
+        <book>1984</book>
+        <author>George Orwell</author>
+        <rating>4.4</rating>
+        <comment>
+            A chilling dystopian novel that serves as a warning about the dangers of totalitarianism and surveillance.
+        </comment>
+    </review>
+    <review>
+        <book>Brave New World</book>
+        <author>Aldous Huxley</author>
+        <rating>4.2</rating>
+        <comment>
+            Huxley's vision of a future society, where happiness is prioritized over individuality, is both thought-provoking and unsettling.
+        </comment>
+    </review>
+</reviews>

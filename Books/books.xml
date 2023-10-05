@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+<bookstore>
+    <book>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <genre>Fiction</genre>
+        <price>15.99</price>
+        <description>
+            The story of the fabulously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan.
+        </description>
+        <published-year>1925</published-year>
+        <isbn>978-0743273565</isbn>
+        <format>Paperback</format>
+    </book>
+    <book>
+        <title>To Kill a Mockingbird</title>
+        <author>Harper Lee</author>
+        <genre>Fiction</genre>
+        <price>12.49</price>
+        <description>
+            A novel that explores themes of racial injustice, moral growth, and empathy in the American South.
+        </description>
+        <published-year>1960</published-year>
+        <isbn>978-0061120084</isbn>
+        <format>Hardcover</format>
+    </book>
+    <book>
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <genre>Fantasy</genre>
+        <price>10.99</price>
+        <description>
+            The classic tale of adventure and heroism in Middle-earth as Bilbo Baggins embarks on a journey.
+        </description>
+        <published-year>1937</published-year>
+        <isbn>978-0618260300</isbn>
+        <format>Paperback</format>
+    </book>
+<book>
+        <title>1984</title>
+        <author>George Orwell</author>
+        <genre>Dystopian Fiction</genre>
+        <price>9.99</price>
+        <description>
+            A classic dystopian novel depicting a totalitarian society and the struggle for individuality.
+        </description>
+        <published-year>1949</published-year>
+        <isbn>978-0451524935</isbn>
+        <format>Paperback</format>
+    </book>
+    <book>
+        <title>Brave New World</title>
+        <author>Aldous Huxley</author>
+        <genre>Dystopian Fiction</genre>
+        <price>11.25</price>
+        <description>
+            A futuristic society that values happiness and stability at the cost of individual freedom.
+        </description>
+        <published-year>1932</published-year>
+        <isbn>978-0060850524</isbn>
+        <format>Hardcover</format>
+    </book>
+</bookstore>
